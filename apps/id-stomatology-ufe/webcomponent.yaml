@@ -10,7 +10,7 @@ spec:
     
       path: id-appointments-page      
       title: Zoznam termínov id   
-      details: Spravuje zoznam termínov pre zubára a informacie klientov
+      details: Spravuje zoznam termínov pre zubára a načítanie informacií o klientoch - xdiscantiny
   preload: false                   
   proxy: true                      
   hash-suffix: v1alpha1             
