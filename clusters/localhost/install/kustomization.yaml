@@ -9,7 +9,12 @@ commonLabels:
   app.kubernetes.io/part-of: wac-hospital
 
 resources:
-- ../../../apps/id-stomatology-ufe
+ - ../../../apps/id-stomatology-ufe
+#  - ../../../apps/id-stomatology-webapi
 
 components:
  - ../../../components/version-developers
+ - https://github.com/ImrichDiscantiny/stomatology-webapi//deployments/kustomize/components/mongodb
+
+patches:
+ - path: patches/stomatology-webapi.service.yaml
