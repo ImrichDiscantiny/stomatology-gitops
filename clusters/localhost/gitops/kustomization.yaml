@@ -16,5 +16,3 @@ resources:
  - ufe-controller.image-repository.yaml
  - ufe-controller.image-policy.yaml
  - image-update-automation.yaml
- - stomatology-webapi.image-repository.yaml
- - stomatology-webapi.image-policy.yaml

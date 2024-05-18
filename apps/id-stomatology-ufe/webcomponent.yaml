@@ -6,10 +6,8 @@ spec:
   module-uri: http://id-stomatology-ufe.wac-hospital/build/stomatology-ufe.esm.js
                     
   navigation:
-    - element: id-appointments-page 
-      attributes:
-        - name: api-base
-          value: /id-api
+    - element: id-appointments-page   
+    
       path: id-appointments-page      
       title: Zoznam termínov id   
       details: Spravuje zoznam termínov pre zubára a načítanie informacií o klientoch - xdiscantiny
