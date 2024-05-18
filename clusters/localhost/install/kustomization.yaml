@@ -10,7 +10,7 @@ commonLabels:
 
 resources:
  - ../../../apps/id-stomatology-ufe
-#  - ../../../apps/id-stomatology-webapi
+ - ../../../apps/id-stomatology-webapi
 
 components:
  - ../../../components/version-developers

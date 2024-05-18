@@ -5,7 +5,6 @@ resources:                  # zoznam manifestov - objektov, ktoré sú súčasť
 - deployment.yaml
 - service.yaml
 - webcomponent.yaml
-- 'https://github.com/ImrichDiscantiny/stomatology-webapi//deployments/kustomize/install' # ?ref=v1.0.1
 
 commonLabels:               # značky priradené všetkým objektom tejt aplikácie
   app.kubernetes.io/component: id-stomatology-ufe

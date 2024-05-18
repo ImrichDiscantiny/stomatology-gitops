@@ -9,7 +9,7 @@ spec:
     - element: id-appointments-page 
       attributes:
         - name: api-base
-          value: http://localhost:30081/api
+          value: /id-api
       path: id-appointments-page      
       title: Zoznam termínov id   
       details: Spravuje zoznam termínov pre zubára a načítanie informacií o klientoch - xdiscantiny
