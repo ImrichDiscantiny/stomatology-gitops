@@ -11,7 +11,6 @@ commonLabels:
 resources:
  - ../../../apps/id-stomatology-ufe
  - ../../../apps/id-stomatology-webapi
-- ../../../apps/id-stomatology-ufe
 
 components:
  - ../../../components/version-developers
