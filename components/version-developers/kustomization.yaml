@@ -2,8 +2,8 @@ apiVersion: kustomize.config.k8s.io/v1alpha1
 kind: Component
 images:
 - name: imrdsc/stomatology-al-webapi
-  newName: imrdsc/stomatology-al-webapi # {"$imagepolicy":  "wac-hospital:ambulance-webapi:name"}
-  newTag: main # {"$imagepolicy": "wac-hospital:ambulance-webapi:tag"}
+  newName: imrdsc/stomatology-al-webapi # {"$imagepolicy":  "wac-hospital:stomatology-webapi:name"}
+  newTag: main # {"$imagepolicy": "wac-hospital:stomatology-webapi:tag"}
 - name: imrdsc/stomatology-ufe
   newName: imrdsc/stomatology-ufe # {"$imagepolicy":  "wac-hospital:stomatology-ufe:name"}
   newTag: main.20240517.2305 # {"$imagepolicy": "wac-hospital:stomatology-ufe:tag"}
