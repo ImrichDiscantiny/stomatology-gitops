@@ -14,3 +14,7 @@ resources:
 
 components:
  - ../../../components/version-developers
+ - https://github.com/ImrichDiscantiny/stomatology-webapi//deployments/kustomize/components/mongodb
+
+patches:
+ - path: patches/stomatology-webapi.service.yaml
