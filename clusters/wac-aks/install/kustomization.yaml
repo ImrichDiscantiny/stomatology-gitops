@@ -4,12 +4,12 @@ kind: Kustomization
 namespace: wac-hospital
 
 commonLabels:
- app.kubernetes.io/part-of: wac-hospital
- app.kubernetes.io/name: id-appointments-page
+  app.kubernetes.io/part-of: wac-hospital
+  app.kubernetes.io/name: id-appointments-page
 
 resources:
- - ../../../apps/id-stomatology-ufe
-
+  - ../../../apps/id-stomatology-ufe
+  - ../../../apps/id-stomatology-webapi
 
 components:
- - ../../../components/version-release
+  - ../../../components/version-release

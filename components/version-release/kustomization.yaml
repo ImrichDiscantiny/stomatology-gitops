@@ -3,8 +3,10 @@ kind: Component
 images:
   - name: imrdsc/stomatology-ufe
     newName: imrdsc/stomatology-ufe
-    newTag: 2.3.1 #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
-
+    newTag: 2.3.0
+  - name: imrdsc/stomatology-al-webapi
+    newName: imrdsc/stomatology-al-webapi
+    newTag: 1.1.0
 replacements:
   - targets:
       - select:
