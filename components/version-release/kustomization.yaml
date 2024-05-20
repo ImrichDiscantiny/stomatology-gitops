@@ -3,7 +3,7 @@ kind: Component
 images:
   - name: imrdsc/stomatology-ufe
     newName: imrdsc/stomatology-ufe
-    newTag: 2.1.1 #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+    newTag: 2.3.1 #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
 
 replacements:
   - targets:
