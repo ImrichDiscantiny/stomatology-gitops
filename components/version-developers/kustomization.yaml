@@ -3,10 +3,10 @@ kind: Component
 images:
 - name: imrdsc/stomatology-al-webapi
   newName: imrdsc/stomatology-al-webapi # {"$imagepolicy":  "wac-hospital:stomatology-webapi:name"}
-  newTag: main.20240519.0020 # {"$imagepolicy": "wac-hospital:stomatology-webapi:tag"}
+  newTag: main.20240520.1609 # {"$imagepolicy": "wac-hospital:stomatology-webapi:tag"}
 - name: imrdsc/stomatology-ufe
   newName: imrdsc/stomatology-ufe # {"$imagepolicy":  "wac-hospital:stomatology-ufe:name"}
-  newTag: main.20240520.1326 # {"$imagepolicy": "wac-hospital:stomatology-ufe:tag"}
+  newTag: main.20240520.1652 # {"$imagepolicy": "wac-hospital:stomatology-ufe:tag"}
 - name: milung/ufe-controller
   newName: milung/ufe-controller # {"$imagepolicy":  "wac-hospital:ufe-controller:name"}
   newTag: 1.7.3 # {"$imagepolicy": "wac-hospital:ufe-controller:tag"}
