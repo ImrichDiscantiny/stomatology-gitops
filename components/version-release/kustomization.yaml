@@ -3,7 +3,7 @@ kind: Component
 images:
   - name: imrdsc/stomatology-ufe
     newName: imrdsc/stomatology-ufe
-    newTag: 2.5.0
+    newTag: 2.5.1
   - name: imrdsc/stomatology-al-webapi
     newName: imrdsc/stomatology-al-webapi
     newTag: 1.1.1
